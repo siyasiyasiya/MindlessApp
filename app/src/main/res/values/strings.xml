@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MindlessApp</string>
+    <string name="score_lbl">Score: 0</string>
 </resources>
