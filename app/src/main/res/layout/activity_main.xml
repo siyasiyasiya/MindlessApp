@@ -28,22 +28,27 @@
     <GridLayout
         android:layout_width="338dp"
         android:layout_height="472dp"
+        android:background="#D4B59D"
         android:columnCount="5"
         android:rowCount="7"
-        android:background="#D4B59D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             android:layout_width="61dp"
             android:layout_height="61dp"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button2"
@@ -52,7 +57,10 @@
             android:layout_row="0"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button3"
@@ -61,7 +69,10 @@
             android:layout_row="0"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button4"
@@ -70,7 +81,10 @@
             android:layout_row="0"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button5"
@@ -79,7 +93,10 @@
             android:layout_row="0"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button6"
@@ -88,7 +105,10 @@
             android:layout_row="1"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button7"
@@ -97,7 +117,10 @@
             android:layout_row="1"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button8"
@@ -106,7 +129,10 @@
             android:layout_row="1"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button9"
@@ -115,7 +141,10 @@
             android:layout_row="1"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button10"
@@ -124,7 +153,10 @@
             android:layout_row="1"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button11"
@@ -133,7 +165,10 @@
             android:layout_row="2"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button12"
@@ -142,7 +177,10 @@
             android:layout_row="2"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button13"
@@ -151,7 +189,10 @@
             android:layout_row="2"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button14"
@@ -160,7 +201,10 @@
             android:layout_row="2"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button15"
@@ -169,7 +213,10 @@
             android:layout_row="2"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button16"
@@ -178,7 +225,10 @@
             android:layout_row="3"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button17"
@@ -187,7 +237,10 @@
             android:layout_row="3"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button18"
@@ -196,7 +249,10 @@
             android:layout_row="3"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button19"
@@ -205,7 +261,10 @@
             android:layout_row="3"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button20"
@@ -214,7 +273,10 @@
             android:layout_row="3"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button21"
@@ -223,7 +285,10 @@
             android:layout_row="4"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button22"
@@ -232,7 +297,10 @@
             android:layout_row="4"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button23"
@@ -241,7 +309,10 @@
             android:layout_row="4"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button24"
@@ -250,7 +321,10 @@
             android:layout_row="4"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button25"
@@ -259,7 +333,10 @@
             android:layout_row="4"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button26"
@@ -268,7 +345,10 @@
             android:layout_row="5"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button27"
@@ -277,7 +357,10 @@
             android:layout_row="5"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button28"
@@ -286,7 +369,10 @@
             android:layout_row="5"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button29"
@@ -295,7 +381,10 @@
             android:layout_row="5"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button30"
@@ -304,7 +393,10 @@
             android:layout_row="5"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/button31"
@@ -313,7 +405,10 @@
             android:layout_row="6"
             android:layout_column="0"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button32"
@@ -322,7 +417,10 @@
             android:layout_row="6"
             android:layout_column="1"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button33"
@@ -331,7 +429,10 @@
             android:layout_row="6"
             android:layout_column="2"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button34"
@@ -340,7 +441,10 @@
             android:layout_row="6"
             android:layout_column="3"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button35"
@@ -349,7 +453,10 @@
             android:layout_row="6"
             android:layout_column="4"
             android:layout_margin="3sp"
-            android:background="#5D443C"/>
+            android:backgroundTint="@color/button_background_color"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
     </GridLayout>
 
