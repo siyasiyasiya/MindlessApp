@@ -3,6 +3,7 @@ package com.example.mindlessapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -91,12 +92,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkClick(int place){
+        final MediaPlayer correct = MediaPlayer.create(this, R.raw.right_choice);
+        final MediaPlayer wrong = MediaPlayer.create(this, R.raw.wrong_choice);
+
         int r = place/5;
         int c = place - r*5;
 
-//        if(accGrid[r][c]){
-//
-//        }
+        if(accGrid[r][c]){
+            correct.start();
+        } else {
+            wrong.start();
+        }
     }
 
     public int randomNumber(int a, int b) {
