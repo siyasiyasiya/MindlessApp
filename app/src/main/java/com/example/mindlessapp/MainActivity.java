@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private List<Button> buttons;
     private boolean[][] accGrid = new boolean[7][5];
     private int level = 1;
+    private int spots;
+    private int gameTime = 4000;
+
     private static final int[] BUTTON_IDS = {
             R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5,
             R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10,
@@ -57,10 +60,22 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        //randomly generate positions to color on the grid
         int r;
         int c;
-        for (int i = 0; i < level+6; i++) {
+        //depending on the level the harder the game will be
+        if(level < 15){
+            spots = level+6;
+            gameTime += 100;
+        } else {
+            spots = randomNumber(18, 20);
+            //once gametime is lower than a certain point no more decreasing.
+            if(gameTime >= 300){
+                gameTime -= 100;
+            }
+        }
+
+        //randomly generate positions to color on the grid
+        for (int i = 0; i < spots; i++) {
             do {
                 r =  randomNumber(0, 6);
                 c = randomNumber(0, 4);
@@ -81,7 +96,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
             //make the actual grid disappear after a set amount of time
-        new Handler().postDelayed(this::startGame, 3000);
+        System.out.println(gameTime);
+        new Handler().postDelayed(this::startGame, gameTime);
     }
 
     public void startGame(){
@@ -94,12 +110,23 @@ public class MainActivity extends AppCompatActivity {
     public void checkClick(int place){
         final MediaPlayer correct = MediaPlayer.create(this, R.raw.right_choice);
         final MediaPlayer wrong = MediaPlayer.create(this, R.raw.wrong_choice);
+        final MediaPlayer complete = MediaPlayer.create(this, R.raw.completion);
 
         int r = place/5;
         int c = place - r*5;
 
+        //if the button clicked is correct
         if(accGrid[r][c]){
-            correct.start();
+            spots --;
+            //if the grid is completed
+            if(spots == 0){
+                complete.start();
+                level++;
+                new Handler().postDelayed(this::generateGrid, 2000);
+            } else {
+                correct.start();
+            }
+            //if the button clicked is wrong
         } else {
             wrong.start();
         }
