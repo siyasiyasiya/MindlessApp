@@ -3,4 +3,5 @@
     <string name="score_lbl">Score: 0</string>
     <string name="gameOver">GAME OVER</string>
     <string name="button">Play Again</string>
+    <string name="high_score">High Score: 0</string>
 </resources>

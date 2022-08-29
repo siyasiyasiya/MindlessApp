@@ -11,7 +11,7 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="154dp"
+        android:layout_width="143dp"
         android:layout_height="37dp"
         android:background="#D4B59D"
         android:gravity="center"
@@ -20,7 +20,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
